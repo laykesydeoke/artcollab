@@ -9,6 +9,9 @@ boot_contracts = ["pox", "costs-v2", "bns"]
 [contracts.contribution-manager]
 path = "contracts/contribution-manager.clar"
 
+[contracts.ownership-manager]
+path = "contracts/ownership-manager.clar"
+
 [repl]
 costs_version = 2
 parser_version = 2
